@@ -15,42 +15,36 @@
 </Header>	
 
 <body>
+	<div class="socialmedia">
+			<h2 id="connectwithme">Connect with Me</h2>
+
+			<nav id="connectwithmelinks">
+			<a target="_blank" href="https://www.github.com/michael-hill"><img class ="github" src ="assets/images/github.png"></a>
+			<a target="_blank" href="https://www.linkedin.com/in/michael-hill-71b496b9/"><img class ="linkedin" src ="assets/images/linkedin.png"></a>
+			<a target="_blank" href="http://stackoverflow.com/users/7759330/mikehill"><img class ="stackoverflow" src ="assets/images/stackoverflow.png"></a>
+			</nav>
+		</div>
 
 	<div class="container">
-  		<form action="/action_page.php">
 
-    	<label for="fname">First Name</label>
-    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+    	<label for="name">Name</label>
+    	<input type="text" id="fname" name="name" placeholder="Your name..">
 	
-    	<label for="lname">Last Name</label>
-    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    	<label for="email">Email</label>
+    	<input type="text" id="email" name="email" placeholder="Your email..">
 
-    	<label for="country">Country</label>
-    	<select id="country" name="country">
-      	<option value="australia">Australia</option>
-      	<option value="canada">Canada</option>
-      	<option value="usa">USA</option>
-    	</select>
-
-    	<label for="subject">Subject</label>
-    	<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    	<label for="message">Message</label>
+    	<textarea id="message" name="message" placeholder="Message.." style="height:200px"></textarea>
 
     	<input type="submit" value="Submit">
   		</form>
 	</div>
 
-	<div id="socialmedia">
-			<h2 id="connectwithme">Connect with Me</h2>
-
-			<nav id="connectwithmelinks">
-			<a href="https://www.github.com/michael-hill"><img class ="Git" src ="assets/images/github.png"></a>
-			<a href="https://www.linkedin.com/in/michael-hill-71b496b9/"><img class ="Linked" src ="assets/images/linkedin.png"></a>
-			<a href="https://http://stackoverflow.com/users/7759330/mikehill"><img class ="Stacked" src ="assets/images/stackoverflow.png"></a>
-			</nav>
-		</div>
 </body>
 
 <footer>
-	<h6>&copy; Copyright 2017 Michael Hill</h6>
+	<div class="footer">
+		<h6>&copy; Copyright 2017 Michael Hill</h6>
+	</div>
 </footer>
 </html>

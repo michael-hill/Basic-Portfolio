@@ -1,1 +1,104 @@
+header {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+
+h1 {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	background-color: #4aaaa5;
+	float: left;
+	width: 180px;
+	margin-top: 5px;
+	line-height: 75px;
+
+}
+
+.navigationlinks {
+	float: left;
+}
+
+#connectwithme {
+	font-color: #4aaaa5;
+	float: right;
+}
+
+#connectwithmelinks {
+	text-align: center;
+	float: right;
+	margin-top: 10px;
+}
+
+#mypic {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+input[type=text], textarea {
+	width: 70%;
+	padding: 12px;
+	border: 1px solid #dddddd;
+	border-radius: 2px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 15px;
+	resize: scroll;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	font-color: #777777;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px;
+}
+
+.github {
+	height: 50px;
+	width: 50px;
+}
+
+.linkedin {
+	height: 50px;
+	width: 50px;
+}
+
+.stackoverflow {
+	height: 48px;
+	width: 50px;
+}
+
+#pics {
+	float: left;
+}
+
+.placeholder1, .placeholder2, .placeholder3, .placeholder4, .placeholder5 {
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+aside {
+	display: block;
+}
+
+.footer {
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	border-top: 8px solid #4aaaa5;
+  	background-color: #666666;
+  	text-align: center;
+}
 
